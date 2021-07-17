@@ -6,12 +6,14 @@ const SideBarComponent = (props) => {
   return (
     <>
       <div className="icons">
-        <spn>
-          <HomeOutlined onClick={() => props.handleClick("home")} />
-        </spn>
-        <spn>
+        <div className="fle">
+          <HomeOutlined onClick={() => props.handleClick("home")} />   
+           <div className="text" >Home</div>    
+        </div>
+        <div  className="fle">
           <FileTextOutlined onClick={() => props.handleClick("report")} />
-        </spn>
+          <div className="text">Reports</div>
+        </div>
       </div>
     </>
   );

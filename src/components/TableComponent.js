@@ -1,5 +1,6 @@
 import React from "react";
 import { Table, Card, Button } from "antd";
+
 const TableComponent = () => {
   const columns = [
     {
@@ -26,6 +27,10 @@ const TableComponent = () => {
       title: "x- ray Date",
       key: "address",
       dataIndex: "address",
+     
+    },
+    {
+
     },
   ];
 

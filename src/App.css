@@ -127,3 +127,12 @@ div#rc-tabs-0-tab-3 {
 .ant-card.completed-bt {
   padding: 0px 0px 32px 0px !important;
 }
+/* .fle{
+  display: flex;
+  flex-direction: column;
+  
+  height: 200px;
+} */
+.text{
+  margin-top: -70px;
+}

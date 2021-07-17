@@ -32,7 +32,7 @@ const FileComponent = () => {
       key: "xdate",
     },
     {
-      title: "Action",
+      title: "Details",
       dataIndex: "action",
       key: "action",
       render: (text) => <EyeOutlined />,
